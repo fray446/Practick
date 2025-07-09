@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Корзина</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+
+
+
+  <!-- Main -->
+  <main class="main">
+            <section class="page-header">
+            <h1>Ваша корзина</h1>
+            <span>4 товара</span>
+            <button class="estimate-button">Очистить корзину</button>
+        </section>
+    <div class="container">
+      <!-- Корзина -->
+      <section class="cart-page">
+
+        <div class="cart-items">
+          <!-- Товар 1 -->
+          <div class="cart-item">
+            <img src="./img/swg/Rectangle 71.svg" alt="Товар 1" class="cart-item__image" />
+            <div class="cart-item__info">
+              <p class="cart-item__name">Вытяжное устройство G2H</p>
+              <p class="cart-item__description">12/72/368 мм / параллельный разъем / от датчика присутствия</p>
+              <p class="cart-item__article">Арт.: G2H13655</p>
+            </div>
+            <div class="cart-item__controls">
+              <button class="cart-item__control cart-item__control--minus">-</button>
+              <input type="number" class="cart-item__quantity" value="1" min="1" />
+              <button class="cart-item__control cart-item__control--plus">+</button>
+              <div>
+                <span class="cart-item__price">12 644 ₽</span>
+              </div>
+            </div>
+            <button class="cart-item__remove">✕</button>
+          </div>
+
+          <!-- Товар 2 -->
+          <div class="cart-item">
+            <img src="./img/swg/Rectangle 72.svg" alt="Товар 2" class="cart-item__image" />
+            <div class="cart-item__info">
+              <p class="cart-item__name">Вытяжное устройство ВХС</p>
+              <p class="cart-item__description">12/72/368 мм / параллельный разъем / от датчика присутствия</p>
+              <p class="cart-item__article">Арт.: G2H13655</p>
+            </div>
+            <div class="cart-item__controls">
+              <button class="cart-item__control cart-item__control--minus">-</button>
+              <input type="number" class="cart-item__quantity" value="2" min="1" />
+              <button class="cart-item__control cart-item__control--plus">+</button>
+              <div>
+                <span class="cart-item__price">12 644 ₽</span>
+              </div>
+            </div>
+            <button class="cart-item__remove">✕</button>
+          </div>
+
+          <!-- Товар 3 -->
+          <div class="cart-item">
+            <img src="./img/swg/Rectangle 73.svg" alt="Товар 3" class="cart-item__image" />
+            <div class="cart-item__info">
+              <p class="cart-item__name">Вытяжное устройство GHN</p>
+              <p class="cart-item__description">12/72/368 мм / параллельный разъем / от датчика присутствия</p>
+              <p class="cart-item__article">Арт.: G2H13655</p>
+            </div>
+            <div class="cart-item__controls">
+              <button class="cart-item__control cart-item__control--minus">-</button>
+              <input type="number" class="cart-item__quantity" value="1" min="1" />
+              <button class="cart-item__control cart-item__control--plus">+</button>
+              <div>
+                <span class="cart-item__price">12 644 ₽</span>
+              </div>
+            </div>
+            <button class="cart-item__remove">✕</button>
+          </div>
+        </div>
+
+        <!-- Подсчет стоимости -->
+        <aside class="cart-summary">
+          <h2 class="cart-summary__title">Итого</h2>
+          <div class="cart-summary__row">
+            <span class="cart-summary__label">Сумма заказа</span>
+            <span class="cart-summary__value">50 576 ₽</span>
+          </div>
+          <div class="cart-summary__row">
+            <span class="cart-summary__label">Количество</span>
+            <span class="cart-summary__value">4 шт.</span>
+          </div>
+          <div class="cart-summary__row">
+            <span class="cart-summary__label">Установка</span>
+            <span class="cart-summary__value">Нет</span>
+          </div>
+          <hr />
+          <div class="cart-summary__row">
+            <span class="cart-summary__label">Стоимость товаров</span>
+            <span class="cart-summary__value">50 576 ₽</span>
+          </div>
+          <button class="cart-summary__button">Оформить заказ</button>
+          <button class="cart-summary__button cart-summary__button--secondary">Купить в 1 клик</button>
+        </aside>
+      </section>
+
+      <!-- Установка -->
+      <section class="installation">
+        <div class="installation__checkbox">
+          <input type="checkbox" id="installation-checkbox" class="installation__input" />
+           <img src="./img/swg/Unknown-5.svg" alt="Товар 1" class="installation__input" />
+        </div>
+          <div class="install__chec">
+            <label for="installation-checkbox" class="installation__label">Установка</label>
+            <p class="installation__note">Отметьте, если Вам необходима консультация профессионала по монтажу выбранных товаров.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Просмотренные товары -->
+      <section class="recent-products">
+        <h2 class="recent-products__title">Просмотренные товары</h2>
+        <div class="recent-products__slider">
+          <!-- Товар 1 -->
+          <div class="recent-product">
+            <img src="./img/swg/BXC-pre-mur-1-modif-BD-768x768 1.svg" alt="Товар 1" class="recent-product__image" />
+            <h3 class="recent-product__name">ВХС</h3>
+            <p class="recent-product__description">Вытяжное устройство для механической системы вентиляции</p>
+            <p class="recent-product__price">6 848 ₽ – 56 584 ₽</p>
+            <p class="recent-product__discount">77,60 ₽ – 643,86 ₽</p>
+            <button class="recent-product__button">Подробнее</button>
+          </div>
+
+          <!-- Товар 2 -->
+          <div class="recent-product">
+            <img src="./img/swg/BXC-pre-mur-1-modif-BD-768x768 2.svg" alt="Товар 2" class="recent-product__image" />
+            <h3 class="recent-product__name">GZH</h3>
+            <p class="recent-product__description">Многофункциональные вытяжные устройства для естественной и гибридной вентиляции</p>
+            <p class="recent-product__price">6 848 ₽ – 56 584 ₽</p>
+            <p class="recent-product__discount">77,60 ₽ – 643,86 ₽</p>
+            <button class="recent-product__button">Подробнее</button>
+          </div>
+
+          <!-- Товар 3 -->
+          <div class="recent-product">
+            <img src="./img/swg/BXC-pre-mur-1-modif-BD-768x768 3.svg" alt="Товар 3" class="recent-product__image" />
+            <h3 class="recent-product__name">GHN</h3>
+            <p class="recent-product__description">Вытяжное устройство с датчиком присутствия</p>
+            <p class="recent-product__price">6 848 ₽ – 56 584 ₽</p>
+            <p class="recent-product__discount">77,60 ₽ – 643,86 ₽</p>
+            <button class="recent-product__button">Подробнее</button>
+          </div>
+
+          <!-- Товар 4 -->
+          <div class="recent-product">
+            <img src="./img/swg/BXC-pre-mur-1-modif-BD-768x768 4.svg" alt="Товар 4" class="recent-product__image" />
+            <h3 class="recent-product__name">TDA</h3>
+            <p class="recent-product__description">Вытяжное устройство с динамичным приводом</p>
+            <p class="recent-product__price">6 848 ₽ – 56 584 ₽</p>
+            <p class="recent-product__discount">77,60 ₽ – 643,86 ₽</p>
+            <button class="recent-product__button">Подробнее</button>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+</body>
+</html>
