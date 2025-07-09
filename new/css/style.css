@@ -270,7 +270,7 @@ main {
 }
 
 .installation__label {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
 }
 
@@ -300,7 +300,7 @@ main {
 
 .recent-product {
   flex-shrink: 0;
-  width: 200px;
+  width: 250px;
   background-color: #ffffff;
   border: 1px solid #e5e7eb;
   border-radius: 8px;
@@ -308,6 +308,9 @@ main {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+.produckt{
+  margin-bottom: 60px;
 }
 
 .recent-product__image {
@@ -324,15 +327,16 @@ main {
 .recent-product__description {
   font-size: 12px;
   color: #6b7280;
+  margin-bottom: 40px;
 }
 
 .recent-product__price {
-  font-size: 12px;
+  font-size: 22px;
   font-weight: 600;
 }
 
 .recent-product__discount {
-  font-size: 10px;
+  font-size: 16px;
   color: #6b7280;
   text-decoration: line-through;
 }
